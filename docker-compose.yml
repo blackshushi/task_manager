@@ -1,0 +1,7 @@
+# we'll call our web app of web
+web:
+  # it'll build this container based the docker file ./Dockerfile
+  build: .
+  # it'll export the port 3000
+  ports:
+    - "3000:3000"
