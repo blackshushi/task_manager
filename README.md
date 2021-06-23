@@ -10,29 +10,23 @@ https://documenter.getpostman.com/view/8942269/TzecBPur
 
 # Feature  List
 
-1. Login
+* Login
+  - User login with userId and username.
 
-  User login with userId and username.
+* Get All Tasks
+  - Query Database for existed user.
 
-2. Get All Tasks
+* Create Task
+  - Create a new task (record) for user.
 
-  Query Database for existed user.
+* Edit Task
+  - Update specific task's information.
 
-3. Create Task
+* Delete Task
+  - Delete specific task.
 
-  Create a new task (record) for user.
-
-4. Edit Task
-
-  Update specific task's information.
-
-5. Delete Task
-
-  Delete specific task.
-
-6. Read Task
-
-  Get specific task information.
+* Read Task
+  - Get specific task information.
 
 # Models
 
