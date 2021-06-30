@@ -54,7 +54,7 @@ exports.update_task = async function (req, res) {
 }
 
 exports.delete_task = async function(req, res) {
-  const task = await Task.findOneAndRemove(req.params.taskId).populate('user', '-_id -__v -password')
+  const task = await Task.findByIdAndRemove(req.params.taskId).populate('user', '-_id -__v -password')
 
   if (task) {
     res.json(task);
